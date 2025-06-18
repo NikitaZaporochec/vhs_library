@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro VHS Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="loader-container">
+        <div class="loader">
+            <div data-glitch="LOADING VHS..." class="glitch">LOADING VHS...</div>
+        </div>
+        <div class="loader-text">TRACKING ADJUSTMENT IN PROGRESS...</div>
+        <div class="loader-progress">
+            <div class="loader-progress-bar"></div>
+        </div>
+    </div>
+    
+    <div class="noise-overlay"></div>
+    <div class="scanlines"></div>
+    
+    <header>
+        <div class="logo">
+            <i class="fas fa-tape vhs-icon"></i>
+            <h1>VHS<span>MANIA</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#catalog">Catalog</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="tv-container">
+            <div class="tv">
+                <div class="tv-screen">
+                    <div class="screen-content">
+                        <h2>Welcome to the<br> VHS Archive</h2>
+                        <p>Discover the unexplained and the forgotten</p>
+                    </div>
+                </div>
+                <div class="tv-base">
+                    <div class="other-work-link">
+                        <a href="https://nikitazaporochec.github.io/memorial_nikita/" target="_blank">Check out my other work!</a>
+                    </div>
+                </div>
+                <div class="tv-credits">made by <a href="https://github.com/NikitaZaporochec" target="_blank">@NikitaZaporochec</a></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="catalog" class="catalog">
+        <h2>Lost VHS Footage and Picture Gallery Collection</h2>
+        <div class="category-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="lost-footage">Lost Footage</button>
+            <button class="filter-btn" data-filter="picture-gallery">Picture Gallery</button>
+        </div>
+        <div class="vhs-grid">
+            <!-- VHS tapes will be populated from JavaScript -->
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Our Archive</h2>
+            <p>VHS Mania started as a collection of unusual and unexplained recordings discovered in abandoned storage units, estate sales, and mysterious packages. Our archive preserves these artifacts of the analog era that might otherwise be lost to time.</p>
+            <p>From strange broadcasts to inexplicable home videos, we maintain these recordings for researchers and the curious to examine. Many of our tapes contain footage that defies conventional explanation.</p>
+        </div>
+        <div class="vcr-tv-setup">
+            <div class="tv-set">
+                <div class="tv-frame">
+                    <div class="tv-screen-container">
+                        <div class="tv-screen-static">
+                            <div class="tv-screen-content">
+                                <div class="tv-text">PLAY</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tv-controls">
+                        <div class="tv-knob"></div>
+                        <div class="tv-knob"></div>
+                    </div>
+                </div>
+                <div class="tv-stand"></div>
+            </div>
+            <div class="vcr">
+                <div class="vcr-front">
+                    <div class="vcr-display">PLAY</div>
+                    <div class="vcr-slot">
+                        <div class="vcr-tape"></div>
+                    </div>
+                    <div class="vcr-controls">
+                        <button class="vcr-button" data-action="play">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <button class="vcr-button" data-action="stop">
+                            <i class="fas fa-stop"></i>
+                        </button>
+                        <button class="vcr-button" data-action="rewind">
+                            <i class="fas fa-backward"></i>
+                        </button>
+                        <button class="vcr-button" data-action="ff">
+                            <i class="fas fa-forward"></i>
+                        </button>
+                        <button class="vcr-button" data-action="eject">
+                            <i class="fas fa-eject"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <i class="fas fa-tape vhs-icon"></i>
+                <h3>VHS<span>MANIA</span></h3>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 VHS Mania Archive. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="vhs-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <!-- Modal content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
