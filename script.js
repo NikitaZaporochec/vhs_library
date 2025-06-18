@@ -80,7 +80,7 @@ const vhsCollection = [
         year: 2020,
         category: "picture-gallery",
         description: "",
-        images: "1",
+        images: "4",
         photographer: "Nikita Zaporozhets",
         coverColor: "linear-gradient(45deg, #9c3eff, #ff3e9c)",
         imageUrls: [            
