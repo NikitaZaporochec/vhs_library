@@ -67,12 +67,14 @@ const vhsCollection = [
         year: 2019,
         category: "picture-gallery",
         description: "Bahitzhan Naben, a kid from school who is known for him breaking his own IPhone.",
-        images: "1",
+        images: "4",
         photographer: "Baha Shelby",
         coverColor: "linear-gradient(45deg, #9c3eff, #ff3e9c)",
         imageUrls: [            
             "img/gallery/baha/baha.jpeg",
-            "img/gallery/baha/baha2.jpeg"
+            "img/gallery/baha/baha2.jpeg",
+            "img/gallery/baha/baha3.jpg",
+            "img/gallery/baha/baha4.jpg"
         ]
     },
     {
@@ -81,7 +83,7 @@ const vhsCollection = [
         year: 2020,
         category: "picture-gallery",
         description: "",
-        images: "4",
+        images: "5",
         photographer: "Nikita Zaporozhets",
         coverColor: "linear-gradient(45deg, #9c3eff, #ff3e9c)",
         imageUrls: [            
@@ -89,6 +91,7 @@ const vhsCollection = [
             "img/gallery/damir_skakov/nigger2.jpeg",
             "img/gallery/damir_skakov/nigger3.jpeg",
             "img/gallery/damir_skakov/nigger4.jpeg",
+            "img/gallery/damir_skakov/nigger5.png",
         ]
     },
 ];
