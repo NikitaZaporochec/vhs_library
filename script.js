@@ -72,6 +72,7 @@ const vhsCollection = [
         coverColor: "linear-gradient(45deg, #9c3eff, #ff3e9c)",
         imageUrls: [            
             "img/gallery/baha/baha.jpeg",
+            "img/gallery/baha/baha2.jpeg"
         ]
     },
     {
