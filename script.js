@@ -92,6 +92,7 @@ const vhsCollection = [
             "img/gallery/damir_skakov/nigger3.jpeg",
             "img/gallery/damir_skakov/nigger4.jpeg",
             "img/gallery/damir_skakov/nigger5.png",
+            "img/gallery/damir_skakov/nigger6.jpg",
         ]
     },
 ];
